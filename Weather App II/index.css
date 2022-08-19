@@ -1,0 +1,140 @@
+* {
+    margin-top: 25px;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+}
+
+.container{
+    margin-top: -70px;
+    margin-left: 150px;
+    width: 80%;
+    position: absolute;
+    /* border: 1px solid red; */
+}
+.container > div{
+    display: flex;
+}
+
+#location{
+    display: inline-block;
+    margin-left: 850px;
+    margin-top: -75px;
+    height: 50px;
+    width: auto;
+    font-size: 16px;
+}
+#box{
+    display:list-item;
+}
+button {
+    cursor: pointer;
+}
+
+button,input {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    /* background-color: #0a1f44; */
+    /* background-image: url("https://th.bing.com/th/id/R.fd8a053bd1af040b9328b90ce96a4ac2?rik=eDl4K5xVmYLRvQ&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f07%2fWeather-Pictures-HD.jpg&ehk=c7zZluv3SC8qJTEVb0NU3%2b5qtFxoWY%2b0cyCh4B8alWE%3d&risl=&pid=ImgRaw&r=0"); */
+    background-image: url("https://wallpaperaccess.com/full/452167.jpg");
+    background-repeat: no-repeat;
+    color: #1e2432;
+    padding: 20px;
+}
+
+.top-banner {
+    color: #fff;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.top-banner input {
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+.top-banner button {
+    background-color: #9e105e;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+.top-banner button:hover {
+    background-color: #c3112d;
+}
+
+
+
+.future_forecast{
+    background: rgba(24,24,27,0.8);
+    padding: 25px;
+    /* position: fixed; */
+    margin-top: 50%;
+    bottom: 0;
+    display: flex;
+    color: white;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.future_forecast .today{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.future_forecast .today .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.future_forecast .today .temp{
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+.future_forecast .weather_forecast{
+    display: flex;
+}
+
+.weather_forecast .weather_forecast_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    padding: 8px;
+}
+
+.weather_forecast .weather_forecast_item .day{
+    padding: 5px 15px;
+    background: #3c3c44;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.weather_forecast .weather_forecast_item .temp{
+    font-weight: 100;
+}
